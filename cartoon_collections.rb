@@ -19,7 +19,7 @@ def long_planeteer_calls(array)
   i = 0 
   values = []
   array.each do |value|
-    values << (value.length > 4)
+    values << true if value.length > 4
   end
   
   values.any? do |value|
