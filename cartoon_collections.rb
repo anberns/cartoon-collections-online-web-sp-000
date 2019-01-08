@@ -23,7 +23,7 @@ def long_planeteer_calls(array)
   end
   
   values.any? do |value|
-    value.true 
+    value == true
   end
   
 end
