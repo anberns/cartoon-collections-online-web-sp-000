@@ -34,6 +34,7 @@ def find_the_cheese(array)
   array.each do |value|
     cheese_types.each do |cheese|
       return true cheese if value == cheese
+    end
   end
   nil
     
