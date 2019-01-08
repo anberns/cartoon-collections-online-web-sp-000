@@ -33,7 +33,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.each do |value|
     cheese_types.each do |cheese|
-      return true cheese if value == cheese
+      return cheese if value == cheese
     end
   end
   nil
